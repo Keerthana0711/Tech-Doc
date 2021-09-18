@@ -1,0 +1,73 @@
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #fefefe;
+}
+
+#navbar {
+  background-color: rgb(188, 188, 255);
+  color: rgb(0, 0, 26);
+  padding: 0px;
+}
+
+#navbar a {
+  display: block;
+}
+
+#navbar a:hover{
+  background-color: rgb(152, 152, 236);
+}
+
+#main-doc {
+  padding: 0px;
+  margin-bottom: 110px;
+}
+
+.jumbotron{
+  border-radius: 0px;
+  background-color: rgb(90, 82, 136);
+  color: bisque;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #e7e9fd;
+  padding: 0px 5px 0px 5px;
+  margin: 1px;
+  border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
